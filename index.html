@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Twitter</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">Notifications</a></li>
+      <li><a href="#">Messages</a></li>
+    </ul>
+  </nav>
+  <section id="tweet-section">
+    <form>
+      <textarea id="tweet-box" placeholder="What's happening?"></textarea>
+      <button type="submit" id="tweet-button">Tweet</button>
+    </form>
+    <div id="tweet-container">
+      <div class="tweet">
+        <div class="tweet-header">
+          <img src="user-avatar.jpg" class="avatar">
+          <span class="username">@exampleuser</span>
+        </div>
+        <p class="tweet-content">Hello, world!</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
